@@ -1,3 +1,11 @@
 Build/dev environment on this host: .NET SDK 8 installed at /opt/data/.dotnet — always run it with `DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1` (libicu missing, dotnet crashes otherwise) and `TMPDIR=/opt/data/tmp` (/data is only ~434MB and fills up; big installs go under /opt/data). NuGet cache: NUGET_PACKAGES=/opt/data/nuget. No rsync/unzip (use python3 zipfile).
 §
 Standing setup: hourly cron job 4258c9c43593 ("Hourly Hermes backup to GitHub", no_agent) runs /data/.hermes/scripts/hermes-backup.sh, pushing selected Hermes state (SOUL, config, memories, skills, cron, plans, hooks, workspace, kanban.db; excludes auth.json/caches/logs) to github dayanai391/hermesbackup. GH token stored at /data/.hermes/backups/.gh_token (mode 600, never commit it). Backup clone at /data/.hermes/backups/hermesbackup. MelonLoader v0.7.3 net6 reference DLLs (MelonLoader.dll, 0Harmony.dll) extracted at /opt/data/tmp/ml/MelonLoader/net6 for building Unity mods; Dayan's mod source at /data/modbuild/EverythingUnlock (built OK: EverythingUnlock.dll v1.0.0 for Sarah's House v0.11.6; reflection-based, no Assembly-CSharp reference). Gallery cheat codes: NuPfgh11 (v0.11.4), 10SrLvN (0.11.2), SrHj07 (0.10.4).
+§
+TELEGRAM FORMATTING: tables render broken; `||` becomes spoiler, `*`/`_` become italic — use plain bullet lists, avoid those chars.
+
+DOTNET ON THIS HOST: SDK 8 at /opt/data/.dotnet; ALWAYS set DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1 (libicu missing) + TMPDIR=/opt/data/tmp + NUGET_PACKAGES=/opt/data/nuget. /data is only ~434MB — keep builds/downloads on overlay (/opt/data), never /data.
+
+MOD PROJECT: EverythingUnlock (MelonLoader net6 mod for Sarah's House v0.11.6) built at /data/modbuild/EverythingUnlock; reflection-only (no Assembly-CSharp ref, survives game updates); build: dotnet build -c Release -p:MLDir=/opt/data/tmp/ml/MelonLoader/net6. Delivered as zip. If Dayan sends Mods/EverythingUnlock_dump.txt, use it to add exact patches.
+
+BACKUP: hourly cron 4258c9c43593 pushes selected Hermes state to github dayanai391/hermesbackup via /data/.hermes/scripts/hermes-backup.sh; token file /data/.hermes/backups/.gh_token; silent on success, alerts on failure.
