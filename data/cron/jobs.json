@@ -23,15 +23,15 @@
       "schedule_display": "every 60m",
       "repeat": {
         "times": null,
-        "completed": 85
+        "completed": 86
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-19T16:36:58.504638+00:00",
-      "next_run_at": "2026-10-23T09:02:28.983724+00:00",
-      "last_run_at": "2026-10-23T07:01:30.217032+00:00",
+      "next_run_at": "2026-10-23T10:03:28.997132+00:00",
+      "last_run_at": "2026-10-23T08:02:30.336075+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -50,16 +50,74 @@
       "enabled_toolsets": null,
       "workdir": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-23T08:01:30.217032+00:00",
-        "dispatched_at": "2026-10-23T08:02:28.961430+00:00",
-        "lateness_seconds": 58.7,
+        "scheduled_at": "2026-10-23T09:02:30.336075+00:00",
+        "dispatched_at": "2026-10-23T09:03:28.961728+00:00",
+        "lateness_seconds": 58.6,
         "kind": "on_time"
       },
       "fire_claim": {
-        "at": "2026-10-23T08:02:28.993194+00:00",
-        "by": "791bd087f796:159:46628ca9a3724318aa9af7d047a34cd3"
+        "at": "2026-10-23T09:03:29.018046+00:00",
+        "by": "791bd087f796:159:5576b6661c764ae6a5978848466c668a"
       }
+    },
+    {
+      "id": "9b890f8f4612",
+      "name": "Railway signup watcher",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "railway-signup-check.sh",
+      "no_agent": true,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "interval",
+        "minutes": 30,
+        "display": "every 30m"
+      },
+      "schedule_display": "every 30m",
+      "repeat": {
+        "times": null,
+        "completed": 1
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-10-23T08:22:40.547323+00:00",
+      "next_run_at": "2026-10-23T09:23:29.160012+00:00",
+      "last_run_at": "2026-10-23T08:53:29.160012+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "last_delivery_unverified": null,
+      "last_failure": null,
+      "failure_streak": 0,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "8768918731",
+        "chat_name": "Its Dayan",
+        "thread_id": null,
+        "user_id": "8768918731",
+        "scope_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "failure_deliver": "local",
+      "last_dispatch": {
+        "scheduled_at": "2026-10-23T08:52:40.548564+00:00",
+        "dispatched_at": "2026-10-23T08:53:28.961305+00:00",
+        "lateness_seconds": 48.4,
+        "kind": "on_time"
+      },
+      "fire_claim": null
     }
   ],
-  "updated_at": "2026-10-23T08:02:28.993329+00:00"
+  "updated_at": "2026-10-23T09:03:29.018251+00:00"
 }
