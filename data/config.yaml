@@ -2385,3 +2385,4 @@ platforms:
       user_id: '8768918731'
 command_allowlist:
   - execute_code
+  - script execution via -e/-c flag
