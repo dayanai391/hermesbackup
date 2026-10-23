@@ -1,19 +1,35 @@
 {
+  "cpp-teaching": {
+    "archived_at": null,
+    "created_at": "2026-10-23T07:05:29.383231+00:00",
+    "created_by": "agent",
+    "first_seen_at": null,
+    "last_patched_at": "2026-10-23T07:05:29.393142+00:00",
+    "last_reused_patch_generation": 0,
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 1,
+    "patch_generation": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  },
   "github": {
     "archived_at": null,
     "created_at": "2026-10-19T16:31:24.324935+00:00",
     "created_by": null,
     "first_seen_at": null,
     "last_patched_at": "2026-10-19T16:40:08.669933+00:00",
-    "last_reused_patch_generation": 2,
-    "last_used_at": "2026-10-19T16:40:03.893785+00:00",
-    "last_viewed_at": "2026-10-19T16:40:03.890068+00:00",
+    "last_reused_patch_generation": 3,
+    "last_used_at": "2026-10-23T07:06:06.085236+00:00",
+    "last_viewed_at": "2026-10-23T07:06:06.081488+00:00",
     "patch_count": 3,
     "patch_generation": 3,
     "pinned": false,
     "state": "active",
-    "use_count": 4,
-    "view_count": 4
+    "use_count": 6,
+    "view_count": 6
   },
   "hermes-agent": {
     "archived_at": null,
@@ -30,5 +46,37 @@
     "state": "active",
     "use_count": 2,
     "view_count": 2
+  },
+  "hermes-agent-skill-authoring": {
+    "archived_at": null,
+    "created_at": "2026-10-23T07:03:51.297120+00:00",
+    "created_by": null,
+    "first_seen_at": null,
+    "last_patched_at": null,
+    "last_reused_patch_generation": 0,
+    "last_used_at": "2026-10-23T07:03:51.302514+00:00",
+    "last_viewed_at": "2026-10-23T07:03:51.297136+00:00",
+    "patch_count": 0,
+    "patch_generation": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
+  "melonloader-modding": {
+    "archived_at": null,
+    "created_at": "2026-10-23T07:05:08.549629+00:00",
+    "created_by": "agent",
+    "first_seen_at": null,
+    "last_patched_at": "2026-10-23T07:06:52.427345+00:00",
+    "last_reused_patch_generation": 0,
+    "last_used_at": "2026-10-23T07:06:14.373782+00:00",
+    "last_viewed_at": "2026-10-23T07:06:14.369374+00:00",
+    "patch_count": 2,
+    "patch_generation": 2,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
   }
 }
