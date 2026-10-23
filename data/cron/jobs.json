@@ -23,24 +23,24 @@
       "schedule_display": "every 60m",
       "repeat": {
         "times": null,
-        "completed": 97
+        "completed": 98
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-19T16:36:58.504638+00:00",
-      "next_run_at": "2026-10-23T21:14:28.989640+00:00",
-      "last_run_at": "2026-10-23T19:13:29.772147+00:00",
-      "last_status": "error",
-      "last_error": "Script exited with code 1\nstderr:\ncp: cannot stat '/data/.hermes/cron/executions.db-wal': No such file or directory\ncp: cannot stat '/data/.hermes/cron/executions.db-shm': No such file or directory\nstdout:\nBACKUP FAILED: copy of cron failed",
+      "next_run_at": "2026-10-23T22:15:28.989472+00:00",
+      "last_run_at": "2026-10-23T20:14:30.518526+00:00",
+      "last_status": "ok",
+      "last_error": null,
       "last_delivery_error": null,
       "last_delivery_unverified": null,
       "last_failure": {
         "at": "2026-10-23T19:13:29.772147+00:00",
         "detail": "Script exited with code 1\nstderr:\ncp: cannot stat '/data/.hermes/cron/executions.db-wal': No such file or directory\ncp: cannot stat '/data/.hermes/cron/executions.db-shm': No such file or directory\nstdout:\nBACKUP FAILED: copy of cron failed"
       },
-      "failure_streak": 1,
+      "failure_streak": 0,
       "deliver": "origin",
       "origin": {
         "platform": "telegram",
@@ -53,14 +53,14 @@
       "enabled_toolsets": null,
       "workdir": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-23T20:13:29.772147+00:00",
-        "dispatched_at": "2026-10-23T20:14:28.961430+00:00",
-        "lateness_seconds": 59.2,
+        "scheduled_at": "2026-10-23T21:14:30.518526+00:00",
+        "dispatched_at": "2026-10-23T21:15:28.961178+00:00",
+        "lateness_seconds": 58.4,
         "kind": "on_time"
       },
       "fire_claim": {
-        "at": "2026-10-23T20:14:29.004982+00:00",
-        "by": "791bd087f796:159:6c579ae4d7df4a8d802129554edfafec"
+        "at": "2026-10-23T21:15:29.002319+00:00",
+        "by": "791bd087f796:159:c2637e77c3a04d60a46b7b62a29cf015"
       }
     },
     {
@@ -86,15 +86,15 @@
       "schedule_display": "every 30m",
       "repeat": {
         "times": null,
-        "completed": 22
+        "completed": 24
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-23T08:22:40.547323+00:00",
-      "next_run_at": "2026-10-23T20:14:29.138090+00:00",
-      "last_run_at": "2026-10-23T19:44:29.138090+00:00",
+      "next_run_at": "2026-10-23T21:16:29.131445+00:00",
+      "last_run_at": "2026-10-23T20:46:29.131445+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -114,13 +114,13 @@
       "workdir": null,
       "failure_deliver": "local",
       "last_dispatch": {
-        "scheduled_at": "2026-10-23T19:43:29.154341+00:00",
-        "dispatched_at": "2026-10-23T19:44:28.960973+00:00",
+        "scheduled_at": "2026-10-23T20:45:29.153049+00:00",
+        "dispatched_at": "2026-10-23T20:46:28.960926+00:00",
         "lateness_seconds": 59.8,
         "kind": "on_time"
       },
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-10-23T20:14:29.005235+00:00"
+  "updated_at": "2026-10-23T21:15:29.002484+00:00"
 }
