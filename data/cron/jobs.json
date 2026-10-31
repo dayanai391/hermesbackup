@@ -23,15 +23,15 @@
       "schedule_display": "every 60m",
       "repeat": {
         "times": null,
-        "completed": 284
+        "completed": 285
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-19T16:36:58.504638+00:00",
-      "next_run_at": "2026-10-31T19:21:28.989650+00:00",
-      "last_run_at": "2026-10-31T17:20:30.330367+00:00",
+      "next_run_at": "2026-10-31T20:22:29.007926+00:00",
+      "last_run_at": "2026-10-31T18:21:30.318375+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -53,14 +53,14 @@
       "enabled_toolsets": null,
       "workdir": null,
       "last_dispatch": {
-        "scheduled_at": "2026-10-31T18:20:30.330367+00:00",
-        "dispatched_at": "2026-10-31T18:21:28.961338+00:00",
+        "scheduled_at": "2026-10-31T19:21:30.318375+00:00",
+        "dispatched_at": "2026-10-31T19:22:28.963919+00:00",
         "lateness_seconds": 58.6,
         "kind": "on_time"
       },
       "fire_claim": {
-        "at": "2026-10-31T18:21:29.003256+00:00",
-        "by": "791bd087f796:159:d79b2f9ed37e4e6d91ff1d748550b070"
+        "at": "2026-10-31T19:22:29.019645+00:00",
+        "by": "791bd087f796:159:22ce7341253a418a874907a92231720a"
       }
     },
     {
@@ -86,15 +86,15 @@
       "schedule_display": "every 30m",
       "repeat": {
         "times": null,
-        "completed": 390
+        "completed": 392
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-23T08:22:40.547323+00:00",
-      "next_run_at": "2026-10-31T18:21:29.129241+00:00",
-      "last_run_at": "2026-10-31T17:51:29.129241+00:00",
+      "next_run_at": "2026-10-31T19:23:29.194117+00:00",
+      "last_run_at": "2026-10-31T18:53:29.194117+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -114,13 +114,13 @@
       "workdir": null,
       "failure_deliver": "local",
       "last_dispatch": {
-        "scheduled_at": "2026-10-31T17:50:29.181185+00:00",
-        "dispatched_at": "2026-10-31T17:51:28.960916+00:00",
+        "scheduled_at": "2026-10-31T18:52:29.154730+00:00",
+        "dispatched_at": "2026-10-31T18:53:28.961425+00:00",
         "lateness_seconds": 59.8,
         "kind": "on_time"
       },
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-10-31T18:21:29.003408+00:00"
+  "updated_at": "2026-10-31T19:22:29.019778+00:00"
 }
