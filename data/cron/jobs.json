@@ -23,24 +23,24 @@
       "schedule_display": "every 60m",
       "repeat": {
         "times": null,
-        "completed": 378
+        "completed": 379
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-19T16:36:58.504638+00:00",
-      "next_run_at": "2026-11-04T18:55:28.993434+00:00",
-      "last_run_at": "2026-11-04T16:54:29.958306+00:00",
-      "last_status": "error",
-      "last_error": "Script exited with code 1\nstderr:\ncp: cannot stat '/data/.hermes/cron/output/9b890f8f4612/2026-11-03_15-04-29.md': No such file or directory\nstdout:\nBACKUP FAILED: copy of cron failed",
+      "next_run_at": "2026-11-04T19:56:28.991706+00:00",
+      "last_run_at": "2026-11-04T17:55:30.799043+00:00",
+      "last_status": "ok",
+      "last_error": null,
       "last_delivery_error": null,
       "last_delivery_unverified": null,
       "last_failure": {
         "at": "2026-11-04T16:54:29.958306+00:00",
         "detail": "Script exited with code 1\nstderr:\ncp: cannot stat '/data/.hermes/cron/output/9b890f8f4612/2026-11-03_15-04-29.md': No such file or directory\nstdout:\nBACKUP FAILED: copy of cron failed"
       },
-      "failure_streak": 1,
+      "failure_streak": 0,
       "deliver": "origin",
       "origin": {
         "platform": "telegram",
@@ -53,14 +53,14 @@
       "enabled_toolsets": null,
       "workdir": null,
       "last_dispatch": {
-        "scheduled_at": "2026-11-04T17:54:29.958306+00:00",
-        "dispatched_at": "2026-11-04T17:55:28.964447+00:00",
-        "lateness_seconds": 59.0,
+        "scheduled_at": "2026-11-04T18:55:30.799043+00:00",
+        "dispatched_at": "2026-11-04T18:56:28.961136+00:00",
+        "lateness_seconds": 58.2,
         "kind": "on_time"
       },
       "fire_claim": {
-        "at": "2026-11-04T17:55:29.006183+00:00",
-        "by": "791bd087f796:159:60c1ac96bea54f46a074ec41f6c18a20"
+        "at": "2026-11-04T18:56:29.008251+00:00",
+        "by": "791bd087f796:159:c08c921c07434526860d1bfa1ec9632d"
       }
     },
     {
@@ -86,15 +86,15 @@
       "schedule_display": "every 30m",
       "repeat": {
         "times": null,
-        "completed": 575
+        "completed": 577
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-23T08:22:40.547323+00:00",
-      "next_run_at": "2026-11-04T17:55:29.171558+00:00",
-      "last_run_at": "2026-11-04T17:25:29.171558+00:00",
+      "next_run_at": "2026-11-04T18:57:29.269179+00:00",
+      "last_run_at": "2026-11-04T18:27:29.269179+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -114,13 +114,13 @@
       "workdir": null,
       "failure_deliver": "local",
       "last_dispatch": {
-        "scheduled_at": "2026-11-04T17:24:29.359376+00:00",
-        "dispatched_at": "2026-11-04T17:25:28.961045+00:00",
-        "lateness_seconds": 59.6,
+        "scheduled_at": "2026-11-04T18:26:29.244749+00:00",
+        "dispatched_at": "2026-11-04T18:27:28.960963+00:00",
+        "lateness_seconds": 59.7,
         "kind": "on_time"
       },
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-11-04T17:55:29.006355+00:00"
+  "updated_at": "2026-11-04T18:56:29.008463+00:00"
 }
