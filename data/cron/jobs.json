@@ -23,15 +23,15 @@
       "schedule_display": "every 60m",
       "repeat": {
         "times": null,
-        "completed": 413
+        "completed": 414
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-19T16:36:58.504638+00:00",
-      "next_run_at": "2026-11-06T06:30:28.989839+00:00",
-      "last_run_at": "2026-11-06T04:29:30.516570+00:00",
+      "next_run_at": "2026-11-06T07:31:28.989786+00:00",
+      "last_run_at": "2026-11-06T05:30:30.277757+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -53,14 +53,14 @@
       "enabled_toolsets": null,
       "workdir": null,
       "last_dispatch": {
-        "scheduled_at": "2026-11-06T05:29:30.516570+00:00",
-        "dispatched_at": "2026-11-06T05:30:28.961152+00:00",
-        "lateness_seconds": 58.4,
+        "scheduled_at": "2026-11-06T06:30:30.277757+00:00",
+        "dispatched_at": "2026-11-06T06:31:28.961809+00:00",
+        "lateness_seconds": 58.7,
         "kind": "on_time"
       },
       "fire_claim": {
-        "at": "2026-11-06T05:30:29.003365+00:00",
-        "by": "791bd087f796:159:e557c5b329754ca4b538c81b7f4dfd4e"
+        "at": "2026-11-06T06:31:28.998955+00:00",
+        "by": "791bd087f796:159:ece68c9d6bbc49e7b34ce0325e3209a4"
       }
     },
     {
@@ -86,15 +86,15 @@
       "schedule_display": "every 30m",
       "repeat": {
         "times": null,
-        "completed": 644
+        "completed": 646
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-10-23T08:22:40.547323+00:00",
-      "next_run_at": "2026-11-06T05:33:29.261030+00:00",
-      "last_run_at": "2026-11-06T05:03:29.261030+00:00",
+      "next_run_at": "2026-11-06T06:35:29.140118+00:00",
+      "last_run_at": "2026-11-06T06:05:29.140118+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -114,13 +114,13 @@
       "workdir": null,
       "failure_deliver": "local",
       "last_dispatch": {
-        "scheduled_at": "2026-11-06T05:02:29.164103+00:00",
-        "dispatched_at": "2026-11-06T05:03:28.961732+00:00",
+        "scheduled_at": "2026-11-06T06:04:29.140497+00:00",
+        "dispatched_at": "2026-11-06T06:05:28.961252+00:00",
         "lateness_seconds": 59.8,
         "kind": "on_time"
       },
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-11-06T05:30:29.003517+00:00"
+  "updated_at": "2026-11-06T06:31:28.999055+00:00"
 }
